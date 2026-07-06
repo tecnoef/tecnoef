@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redes Sociales | TecnoEF</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background:#f7ebff;
+}
+
+header{
+    background-color: rebeccapurple;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    padding:20px;
+}
+
+.logo{
+    width:110px;
+    height:110px;
+    background:white;
+    color:#6a0dad;
+    border:3px dashed white;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
+.titulo h1{
+    font-size:40px;
+}
+
+.titulo p{
+    font-size:18px;
+}
+
+.contenedor{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+}
+
+.presentacion{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 12px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.presentacion h2{
+    color:#8e44ad;
+    margin-bottom:15px;
+}
+
+.presentacion p{
+    color:#555;
+    line-height:28px;
+}
+
+
+.redes{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:35px;
+}
+
+.tarjeta{
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 0 12px rgba(0,0,0,.2);
+    transition:.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-8px);
+}
+
+.icono{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.tarjeta h3{
+    color:#8e44ad;
+    margin-bottom:10px;
+}
+
+.usuario{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.boton{
+    display:inline-block;
+    text-decoration:none;
+    background:#b5179e;
+    color:white;
+    padding:12px 25px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.boton:hover{
+    background:#6a0dad;
+}
+
+
+
+footer{
+    margin-top:40px;
+    background:#6a0dad;
+    color:white;
+    text-align:center;
+    padding:18px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+	<a href="index.html"><img src="imagenes/logo2.png"></a>
+</div>
+
+<div class="titulo">
+<h1>TECNOEF</h1>
+
+</div>
+
+</header>
+
+<div class="contenedor">
+
+<div class="presentacion">
+
+<h2>¡Siguenos en nuestras redes !</h2>
+
+<p>
+Mantente informado sobre promociones, consejos de mantenimiento, nuevos productos y servicios siguiendo nuestras redes sociales.
+¡Forma parte de la comunidad TecnoEF!
+</p>
+
+</div>
+
+<div class="redes">
+
+<div class="tarjeta">
+<div class="icono"><img src="imagenes/insta.png"></div>
+<h3>Instagram</h3>
+<p class="usuario">@tecnoef_123</p>
+<a href="https://www.instagram.com/tecno_ef_123?igsh=Y2NxczN5cndqMXhz&utm_source=qr" target="_blank" class="boton">Seguir</a>
+</div>
+
+<div class="tarjeta">
+<div class="icono"><img src="imagenes/facebook.png"></div>
+<h3>Facebook</h3>
+<p class="usuario">TecnoEf</p>
+<a href="https://www.facebook.com/share/1FFGGNsLjS/?mibextid=wwXIfr" target="_blank" class="boton">Seguir</a>
+</div>
+
+<div class="tarjeta">
+<div class="icono"><img src="imagenes/tiktok.png"></div>
+<h3>TikTok</h3>
+<p class="usuario">@tecnoef_123</p>
+<a href="https://www.tiktok.com/@tecno_ef?_r=1&_d=ecaeg3al893jeb&sec_uid=MS4wLjABAAAATQ2Qogv5ScZry4HGn03UEnWs3tM9Hj-V7Tpl7d0v2rqNGPXR8bFc5ouKwhoELVT8&share_author_id=7618645812339950613&sharer_language=es&source=h5_m&u_code=f2emb7fhje2c54&item_author_type=1&utm_source=copy&tt_from=copy&enable_checksum=1&utm_medium=ios&share_link_id=81F7DEE3-1518-4FFA-A1B0-CB731F326CAF&user_id=7618645812339950613&sec_user_id=MS4wLjABAAAATQ2Qogv5ScZry4HGn03UEnWs3tM9Hj-V7Tpl7d0v2rqNGPXR8bFc5ouKwhoELVT8&social_share_type=4&ug_btm=b0,b0&utm_campaign=client_share&share_app_id=1233" target="_blank" class="boton">Seguir</a>
+</div>
+
+<div class="tarjeta">
+<div class="icono"><img src="imagenes/You Tube.png"></div>
+<h3>YouTube</h3>
+<p class="usuario">TecnoEF</p>
+<a href="https://www.youtube.com/@Tecnoef422" target="_blank" class="boton">Suscribirse</a>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>Tu aliado tecnológico de confianza</p>
+
+
+</footer>
+
+</body>
+</html>

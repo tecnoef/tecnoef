@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Videos | TecnoEF</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background:#f8ebff;
+}
+
+header{
+    background-color: rebeccapurple;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    padding:20px;
+}
+
+.logo{
+    width:100px;
+    height:100px;
+    background:white;
+    color:#6a0dad;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
+.titulo h1{
+    font-size:38px;
+}
+
+.titulo p{
+    font-size:18px;
+}
+
+
+.contenedor{
+    width:90%;
+    margin:40px auto;
+}
+
+.introduccion{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0px 0px 10px rgba(0,0,0,.2);
+    margin-bottom:30px;
+}
+
+.introduccion h2{
+    color:#8e44ad;
+    margin-bottom:10px;
+}
+
+.videos{
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.video{
+    flex:1;
+    min-width:350px;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 0px 10px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.video h3{
+    color:#8e44ad;
+    margin-bottom:15px;
+}
+
+video{
+    width:100%;
+    border-radius:10px;
+    border:2px solid #b5179e;
+}
+
+footer{
+    margin-top:40px;
+    background:#6a0dad;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<a href="index.html"><img src="imagenes/logo2.png"></a>
+</div>
+
+<div class="titulo">
+<h1>TECNOEF</h1>
+</div>
+
+</header>
+
+<div class="contenedor">
+
+<div class="introduccion">
+
+<p>
+Mira algunos videos donde mostramos nuestro trabajo, los servicios que ofrecemos y cómo realizamos el mantenimiento de equipos de cómputo.
+</p>
+
+</div>
+
+<div class="videos">
+
+<div class="video">
+
+
+<video controls>
+    <source src="imagenes/video1.mp4" type="video/mp4">
+   
+</video>
+
+<p>Mantenimiento de software de computadoras.</p>
+
+</div>
+
+<div class="video">
+
+<video controls>
+    <source src="imagenes/video2.mp4" type="video/mp4">
+</video>
+
+<p>Mantenimiento de hardware de computadoras</p>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+ Tu aliado tecnológico de confianza
+
+</footer>
+
+</body>
+</html>
